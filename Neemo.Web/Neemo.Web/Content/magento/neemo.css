@@ -422,7 +422,7 @@
             border-bottom: 1px solid #eee;
         }
 
-        /*.provider-details .provider-info .provider-service-list {
+    /*.provider-details .provider-info .provider-service-list {
             width: 40%;
             display: inline-block;
             vertical-align: top;
@@ -513,8 +513,14 @@
             margin-bottom: 5px;
             font-size: 1.2em;
         }
+/*
+    Top-Bar
+*/
 
-
+.header .navbar .navbar-inner {
+    background-color: #f8f8f8;
+    color: #999;
+}
 
 /* Large desktop */
 @media (min-width: 1200px) {
